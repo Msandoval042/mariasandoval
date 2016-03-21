@@ -1,0 +1,318 @@
+/*GLOBAL STYLES*/
+
+
+/*
+==============================================================
+GLOBAL STYLES FOR THE ENTIRE SITE
+==============================================================
+*/
+/**{background-color:#003399;}*/
+
+
+html, body{
+    height:100%;
+}
+@import url(https://fonts.googleapis.com/css?family=Lobster|Frijole);
+body{
+    margin:0px;
+    padding:0px;
+    background-color:#FFFFFF;
+    font-family:'source Sans Pro', Helvetica, sans-serif;
+    font-size: 16px;
+    color:#000000;
+}
+h1, h2, h3{
+    margin:0px;
+    padding:0px;
+    color:#99003D;  
+    font-family: 'Frijole', cursive, Arial, serif; font-weight: 400; 
+   /*font-family: 'Lobster', cursive;*/
+    /*font-family: 'Frijole', cursive;*/
+
+}
+h1{
+    font-size:2.5em;
+}
+
+p{ 
+    line-height:20px;
+    margin:15px 0px;
+}
+strong, b {
+    color:#99003D;
+}
+a{
+    color:#99003D;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #FF0066;
+    text-decoration:underline;
+}
+figure{
+    margin:0px;
+    padding:0px;
+}
+/*==============================================================*/
+/*HEADER STYLES*/
+/*==============================================================*/
+
+header{
+    background-color:#F1F1F1;
+}
+
+#header{
+    position: relative;
+    padding: 15px 0px;
+}
+
+#logo {
+    color:#99003D;
+    width:300px;
+    text-decoration:none;
+    
+}
+#logo:hover{
+    color:#FF0066;
+}
+
+/*NAVIGATION STYLES*/
+
+#menu {
+    position:absolute;
+    top: 15px;
+    right:5%;
+}
+#menu li {
+    display:inline;
+    margin:0px 20px; 
+    text-transform:uppercase;
+    font-weight:600;
+}
+
+#menu li:after {
+    content:"|";
+    padding: 0px 20px;
+    color:#99003D;
+}
+.currentPage a {
+    color:#FF0066;
+}
+/*===========================================================================*/
+/*BANNER STYLE*/
+/*===========================================================================*/
+#banner-home{
+    background:url(../images/banner.jpg) no-repeat center
+        center #99003D;
+    background-size:cover;
+    border-top:3px solid #FF0066;
+    padding:95px 0px;
+    overflow:hidden;
+
+    
+}
+
+
+#banner-about{
+    background:url(../images/banner-about.jpg) no-repeat center
+        center #FF0066;
+    background-size:cover;
+    border-top:3px solid #FF0066;
+    padding:90px 0px;
+    overflow:hidden;
+
+}
+
+.banner-title{
+    color:#FF0066;
+    font-size: 2.5em;
+    text-align:center;
+    text-shadow: 6px 6px 6px #000000;
+}
+.banner-button{
+    background-color:#FF0066;
+    color:#FFFFFF;
+    text-decoration:none;
+    padding:10px 15px 10px 15px;
+    border-radius: 4px;
+    font-size:1em;
+    text-transform:uppercase;
+    font-weight:600;
+    margin:0px auto;
+    width:260px;
+    
+}
+/*===========================================================================*/
+/*MAIN STYLES*/
+/*===========================================================================*/
+.main-body{
+    width:1200px;
+    overflow:hidden;
+    margin: 0px auto;  /* HOW TO CENTER IN CSS*/
+
+}
+
+/*COLUMN STYLES*/
+
+.column-A, .column-B, .column-C{
+    width:384px;
+}
+
+.column-A, .column-B{
+    float:left;
+    margin-right:24px;
+}
+
+.column-C{
+    float:left;
+}
+.column-A h2, .column-B h2, .column-C h2{
+    font-weight:700px;
+    font-size: 1.5em;
+    text-align:center;
+    margin-top:12px;
+}
+
+
+.column-image span{
+    background-color:#FF0066;
+    color:#FFFFFF;
+    display:block;
+    font-size:1em;
+    font-weight:600;
+    padding:20px 0px;
+    margin:15px 0px;
+    text-align:center;
+    text-transform:uppercase;
+    
+}
+.column-A p, .column-B p, .column-C p{
+    padding: 0px;
+    text-align:justify;
+}
+/*============================================================================*/
+/*BUTTON STYLE*/
+/*=============================================================================*/
+
+a.button{
+    background-color:#FF0066;
+    color:#FFFFFF;
+    text-decoration:none;
+    padding:10px 15px 10px 15px;
+    border-radius: 4px;
+    font-size:1em;
+    text-transform:uppercase;
+    font-weight:600;
+    float:left;
+}
+a.button:hover{
+    background-color:;
+    border:3px solid #99003D;
+}
+
+
+
+/*ABOUT STYLES*/
+.align-left{
+    float:left;
+    width:384px;
+    margin-right:24px;
+}
+.align-right:{
+    float:right;
+    width:788px;
+}
+#about-me{
+    margin-top:20px;
+}
+
+
+/*FOOTER STYLE*/
+footer{
+    margin-top:20px;
+    clear:both;  /*play with this on the about page*/
+}
+
+#copyright{
+    overflow:hidden;
+    padding:40px 0px;
+    border-top:4px dotted #8DC63F;
+    background-color:#E2E2E2;
+    display: block;
+}
+
+#copyright p{
+    text-align:center;
+    font-size:1.25em;
+}
+#copyright a{
+   color:#FF7900; 
+}
+#copyright a:hover{
+    color:#8DC63F;
+    text-decoration:none;
+}
+/*CUSTOM STYLES*/
+
+
+/*SOCIAL MEDIA STYLES*/
+
+.fa{
+    background-color: #8DC63F;
+    border:3px solid #FFFFFF;
+    border-radius:100%;
+    font-size: 1.7em !important;
+    margin:15px;
+    color:#FFFFFF;
+    height:28px;
+    width:28px;
+    padding:10px;
+    text-align:center;
+}
+
+.fa:hover{
+    background-color:#FF7900;
+}
+
+.fa-facebook{
+    background-color:#0C516E;
+}
+
+.fa-twitter{
+   background-color:#8CA6DA; 
+}
+#social{
+    text-align:center;
+}
+
+/*CUSTOM STYLES*/
+
+
+.vid-container{
+    margin:0px auto;
+    width:100%;
+}
+
+#video-holder{
+    height: 0px;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    position: relative;
+    width: 100%;
+}
+
+#video-holder iframe, .video-container object, .video-container embed{
+    height:100%;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width:100%;
+  
+/*CONTROLS CONDITIONS OF SCREEN  */
+    
+}
+@media screen and(max-width:400px) {
+    h1{font-size: .6em;}
+}
